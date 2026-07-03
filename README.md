@@ -17,6 +17,7 @@ kodlaması ve SDMA/FDMA/TDMA çoklu erişim şemaları incelenir.
 - Sionna 
 - TensorFlow
 - NumPy, Matplotlib, Pandas
+- MATLAB
 
 
 ## Dosyalar
