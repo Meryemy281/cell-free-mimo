@@ -35,6 +35,23 @@ kodlaması ve SDMA/FDMA/TDMA çoklu erişim şemaları incelenir.
 dosyasını üretir/kullanır. `centralized_comparison.jpynb` bu dosyaya bağımlıdır,
 bu yüzden ondan sonra çalıştırılmalıdır.
 
+## MATLAB Kodları
+
+`matlab/` klasöründe, teorik (Rayleigh sönümlemeli) kanal üzerinde MIMO
+detektör/precoder başarımını inceleyen MATLAB Live Script (`.mlx`) dosyaları
+bulunur. Bu kodlar, Sionna tabanlı ray-tracing simülasyonlarına tamamlayıcı
+bir referans oluşturur.
+
+| Dosya | Açıklama |
+|-------|----------|
+| `uplink.mlx` | Uplink; ZF combining ile farklı alıcı anten sayılarında (4×4, 4×8, 4×16) BER karşılaştırması |
+| `downlink.mlx` | Downlink; ZF precoding ile farklı verici anten sayılarında BER karşılaştırması |
+| `comparison_uplink.mlx` | Uplink 4×8; ZF ve LMMSE detektörlerinin başarım karşılaştırması |
+| `comparison_downlink.mlx` | Downlink 8×4; ZF ve LMMSE precoding karşılaştırması |
+
+> Not: `.mlx` dosyaları MATLAB Live Script formatındadır ve GitHub üzerinde
+> önizlenemez; açmak için MATLAB gereklidir.
+
 ## Yazar
 
 Meryem Yılmaz — İstanbul Teknik Üniversitesi
